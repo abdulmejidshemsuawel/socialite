@@ -12,7 +12,7 @@ class TwitterProvider extends AbstractProvider implements ProviderInterface
      *
      * @var array
      */
-    protected $scopes = ['users.read', 'tweet.read', 'users.email'];
+    protected $scopes = ['users.read', 'users.email', 'tweet.read'];
 
     /**
      * Indicates if PKCE should be used.
@@ -71,10 +71,10 @@ class TwitterProvider extends AbstractProvider implements ProviderInterface
     {
         return (new User)->setRaw($user)->map([
             'id' => $user['id'],
+            'email' => $user['confirmed_email'] ?? null,
             'nickname' => $user['username'],
             'name' => $user['name'],
             'avatar' => $user['profile_image_url'],
-            'email' => $user['confirmed_email'],
         ]);
     }
 
