@@ -57,7 +57,7 @@ class TwitterProvider extends AbstractProvider implements ProviderInterface
     protected function getUserByToken($token)
     {
         $response = $this->getHttpClient()->get('https://api.twitter.com/2/users/me', [
-            RequestOptions::HEADERS => ['Authorization' => 'Bearer ' . $token],
+            RequestOptions::HEADERS => ['Authorization' => 'Bearer '.$token],
             RequestOptions::QUERY => ['user.fields' => 'profile_image_url,confirmed_email'],
         ]);
 
