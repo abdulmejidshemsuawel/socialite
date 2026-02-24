@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/socialite/compare/v5.24.2...5.x)
+## [Unreleased](https://github.com/laravel/socialite/compare/v5.24.3...5.x)
+
+## [v5.24.3](https://github.com/laravel/socialite/compare/v5.24.2...v5.24.3) - 2026-02-21
+
+* Laravel 13.x Compatibility by [@laravel-shift](https://github.com/laravel-shift) in https://github.com/laravel/socialite/pull/762
 
 ## [v5.24.2](https://github.com/laravel/socialite/compare/v5.24.1...v5.24.2) - 2026-01-10
 
