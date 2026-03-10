@@ -1,6 +1,11 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/socialite/compare/v5.24.3...5.x)
+## [Unreleased](https://github.com/laravel/socialite/compare/v5.25.0...5.x)
+
+## [v5.25.0](https://github.com/laravel/socialite/compare/v5.24.3...v5.25.0) - 2026-02-27
+
+* Add Boost skill for Socialite development by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/socialite/pull/763
+* Rename Boost skill directory to socialite-development by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/socialite/pull/76
 
 ## [v5.24.3](https://github.com/laravel/socialite/compare/v5.24.2...v5.24.3) - 2026-02-21
 
