@@ -1,6 +1,50 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/socialite/compare/v5.20.0...5.x)
+## [Unreleased](https://github.com/laravel/socialite/compare/v5.25.0...5.x)
+
+## [v5.25.0](https://github.com/laravel/socialite/compare/v5.24.3...v5.25.0) - 2026-02-27
+
+* Add Boost skill for Socialite development by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/socialite/pull/763
+* Rename Boost skill directory to socialite-development by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/socialite/pull/76
+
+## [v5.24.3](https://github.com/laravel/socialite/compare/v5.24.2...v5.24.3) - 2026-02-21
+
+* Laravel 13.x Compatibility by [@laravel-shift](https://github.com/laravel-shift) in https://github.com/laravel/socialite/pull/762
+
+## [v5.24.2](https://github.com/laravel/socialite/compare/v5.24.1...v5.24.2) - 2026-01-10
+
+* Fix FakeProvider to preserve decorator pattern when forwarding calls by [@mohammedmanssour](https://github.com/mohammedmanssour) in https://github.com/laravel/socialite/pull/760
+
+## [v5.24.1](https://github.com/laravel/socialite/compare/v5.24.0...v5.24.1) - 2026-01-01
+
+* Remove redundant `email` mapping causing error for unconfirmed X accounts by [@Gertiozuni](https://github.com/Gertiozuni) in https://github.com/laravel/socialite/pull/757
+* chore: update firebase/php-jwt package by [@itsalifadaei](https://github.com/itsalifadaei) in https://github.com/laravel/socialite/pull/758
+
+## [v5.24.0](https://github.com/laravel/socialite/compare/v5.23.2...v5.24.0) - 2025-12-09
+
+* Add Testing Fakes by [@stevebauman](https://github.com/stevebauman) in https://github.com/laravel/socialite/pull/756
+
+## [v5.23.2](https://github.com/laravel/socialite/compare/v5.23.1...v5.23.2) - 2025-11-21
+
+* [5.x] PHP 8.5 Compatibility by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/socialite/pull/755
+
+## [v5.23.1](https://github.com/laravel/socialite/compare/v5.23.0...v5.23.1) - 2025-10-27
+
+**Full Changelog**: https://github.com/laravel/socialite/compare/v5.23.0...v5.23.1
+
+## [v5.23.0](https://github.com/laravel/socialite/compare/v5.22.0...v5.23.0) - 2025-07-23
+
+* Fix the Facebook avatar URL by [@joaopms](https://github.com/joaopms) in https://github.com/laravel/socialite/pull/750
+* Update Facebook Graph API version to v23.0 by [@joaopms](https://github.com/joaopms) in https://github.com/laravel/socialite/pull/749
+
+## [v5.22.0](https://github.com/laravel/socialite/compare/v5.21.0...v5.22.0) - 2025-07-08
+
+* Fix return type for functions which make use of json_decode by [@michaelklopf](https://github.com/michaelklopf) in https://github.com/laravel/socialite/pull/745
+* feat(google): stateless ID token support by [@beefsack](https://github.com/beefsack) in https://github.com/laravel/socialite/pull/748
+
+## [v5.21.0](https://github.com/laravel/socialite/compare/v5.20.0...v5.21.0) - 2025-05-19
+
+* Added email and it's scope to TwitterProvider by [@abdulmejidshemsuawel](https://github.com/abdulmejidshemsuawel) in https://github.com/laravel/socialite/pull/744
 
 ## [v5.20.0](https://github.com/laravel/socialite/compare/v5.19.0...v5.20.0) - 2025-04-21
 
